@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .nav-list label {
+            gap: 30px;
+            margin-left: 20px;
+        }
+
+        .nav-list img.search {
+            margin-left: 200px;
+            width: 70px;
+            height: 30px;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-left: 0px;
+        }
+
+        table tr td {
+            padding: 10px;
+            margin-right: 50px;
+            margin-bottom: 100px;
+            gap: 20px;
+            margin: auto;
+        }
+
+        p {
+            width: 250px;
+        }
+
+        label {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-list" style="padding-top: 5px; margin-left: 20px; padding: 10px;">
+            <img src="img/dibimbing.jpg" alt="logo" style="height: 70px; width: 150px; margin-top: 30px; ">
+            <form>
+                <label style="margin-right: 10px;">Career</label>
+                <label style="margin-right: 10px;">Data Science</label>
+                <label style="margin-right: 10px;">Digital Marketing</label>
+                <label style="margin-right: 10px;">Web Development</label>
+                <select name="" id="" style="margin-right: 20px;">
+                    <option value="">Lainnya</option>
+                    <option value="">Golang</option>
+                    <option value="">Python</option>
+                    <option value="">JavaScript</option>
+                </select>
+                <img src="img/search.png" alt="search"
+                    style="height: 50px; width: 70px; margin-top: 1px; vertical-align: middle; margin-left: 100px;">
+            </form>
+        </nav>
+    </header>
+    <br />
+    <br />
+
+    <!-- Main -->
+    <main>
+        <table style="margin-left: 20px; padding: 10px">
+            <tr>
+                <td style="padding-bottom: 200px;">
+                    <img src="img/web1.jpeg" alt="" style="margin-top: 50px;">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed autem assumenda illum illo dolor
+                        ducimus cupiditate quia Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                        assumenda esse doloremque molestiae suscipit corporis sit ratione ullam beatae odio.</p>
+
+                </td>
+                <td>
+                    <img src="img/gambar1.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eligendi illum, consequuntur
+                    </p>
+                    <br />
+                    <img src="img/gambar2.jpeg" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, possimus?</p>
+                    <br />
+                </td>
+                <td>
+                    <img src="img/gambar3.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus?</p>
+                    <br />
+                    <img src="img/gambar4.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus?</p>
+                    <br />
+                </td>
+            </tr>
+
+        </table>
+    </main>
+    <br />
+
+
+    <section style="padding: 20px; margin-left: 20px">
+        <h2>Program</h2>
+        <hr /><br />
+        <table>
+            <tr>
+                <td style="width: 100px; height: 10px; padding-right: 50px">
+                    <img src="img/gambar1.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, eligendi.</p>
+                    <br />
+                    <img src="img/gambar2.jpeg" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, illo!</p>
+                    <br />
+                    <img src="img/gambar3.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, odit.</p>
+                    <br />
+                    <img src="img/gambar4.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, odit.</p>
+                </td>
+                <td style="padding-left: 400px; width: 100px; height: 10px">
+                    <h3>Rekomendasi Pertemuan</h3>
+                    <br />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rNSfMxMPWqc?si=z5l4lUf38kU8jwSY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Pertemuan ke-1</p>
+                    <br />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QbmrYAq-YqE?si=hKcbAUakJYIJw4kD"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Pertemuan ke-2</p>
+                    <br />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rNSfMxMPWqc?si=mx6eOP6aCEEpcOq2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Pertemuan ke-3</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <table style="padding: 10px; margin-left: 20px">
+            <td>
+                <img src="img/dibimbing.jpg" alt="" style="height: 100px ; width: 150px;">
+                <figcaption style="padding: 20px;">your carrer partner</figcaption>
+                <p>PT. Dibimbing Digital Indonesia</p>
+                <p>Jl. Kemang Utara E No.528 RT.8/RW.1 Bangka, Kec. mampang, Kota Jakarta Selatan Daerah Khusus
+                    Ibukota
+                    Jakarta</p>
+
+            </td>
+            <td style="padding-left: 50px;">
+                <h4>Service</h4>
+                <br />
+                <div style="color: #1c999b">
+                    <p>Viedo Course Online</p>
+                    <p>Bootcamp</p>
+                    <p>Specialized Bootcamp</p>
+                    <p>Mentoring</p>
+                    <p>For Bussiness</p>
+                </div>
+            </td>
+            <td style="padding-bottom: 40px; padding-left: 50px;">
+                <h4>Partner</h4>
+                <br />
+                <div style="color: #1c999b">
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Blog</p>
+                </div>
+            </td>
+        </table>
+    </section>
+
+    <div style="padding: 10px; margin-left: 20px">
+        <img src="img/in.png" alt="" style="width: 30px; height: 30px">
+        <img src="img/fb.png" alt="" style="width: 30px; height: 30px">
+        <img src="img/instagram.jpeg" alt="" style="width: 30px; height: 30px">
+        <img src="img/twitter.png" alt="" style="width: 30px; height: 30px">
+    </div>
+    <a style="padding-left: 10px; margin-left: 20px" href="/page2.html"> page 2</a>
+    </main>
+    <footer>
+        <p style="padding-left: 600px; margin-bottom: 50px"><em>Copyright &copy; 2024. All rights reserved.</em>
+        </p>
+    </footer>
+</body>
+
+</html>
